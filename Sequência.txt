@@ -1,0 +1,18 @@
+- Fazer CRUD funcionar no Front e no Back
+
+- Fazer SignUp (cadastro de usuários via aplicativo)
+
+- Rodar no Emulador
+
+- Procurar Servidor em DJango:
+	-Heroku
+	-PythonAnywhere
+	-AWS Free Tier
+	-Google Cloud Platform (GCP) Free Tier
+	-PythonAnywhere
+
+- Salvar imagem no Back
+	- Câmera do celular
+	- Usar Galeria
+
+- GPS

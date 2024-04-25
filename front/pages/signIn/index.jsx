@@ -17,7 +17,7 @@ export default function Login({ navigation }) {
         AsyncStorage.setItem('token', tokenX)
             .then(() => {
                 if (token != null) {
-                    console.log('Token SignIn: ', token)
+                    console.log('Token SignInXXX: ', token)
                     console.log('Token salvo com sucesso!');
                 }
             })
@@ -38,11 +38,8 @@ export default function Login({ navigation }) {
 
             // Se a solicitação for bem-sucedida, definimos o token no estado
             setToken(response.data.access);
-            console.log('Token SignIn: ', token)
             navigation.navigate('Read')
         } catch (error) {
-            // Se houver algum erro na solicitação, exibimos uma mensagem de alerta
-            Alert.alert('Erro', 'Falha ao obter o token.');
             console.error(error);
         }
     };
