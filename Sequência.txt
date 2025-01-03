@@ -5,7 +5,6 @@
 - Rodar no Emulador
 
 - Procurar Servidor em DJango:
-	-Heroku
 	-PythonAnywhere
 	-AWS Free Tier
 	-Google Cloud Platform (GCP) Free Tier
